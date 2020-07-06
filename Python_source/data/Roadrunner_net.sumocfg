@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file value="Roadrunner_net.net.xml"/>
+        <route-files value="Roadrunner_net.rou.xml"/>
+    </input>
+    
+    <processing>
+        <time-to-teleport value="-1"/>
+		<lanechange.duration value="2"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <xml-validation value="never"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui-settings-file value="gui-settings_v2.xml"/>
+
+</configuration>
